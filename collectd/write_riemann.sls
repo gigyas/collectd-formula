@@ -20,3 +20,4 @@ include:
         storerates: {{ salt['pillar.get']('collectd:plugins:write_riemann:storerates') }}
         alwaysappendds: {{ salt['pillar.get']('collectd:plugins:write_riemann:alwaysappendds') }}
         tag: {{ salt['pillar.get']('collectd:plugins:write_riemann:tag') }}
+        ttlfactor: {{ salt['pillar.get']('collectd:plugins:write_riemann:ttlfactor') }}
